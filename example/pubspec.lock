@@ -43,13 +43,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.4"
   fake_async:
     dependency: transitive
     description:
@@ -57,11 +50,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0"
+  flex_color_scheme:
+    dependency: transitive
+    description:
+      name: flex_color_scheme
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_hooks:
+    dependency: transitive
+    description:
+      name: flutter_hooks
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.18.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -69,11 +76,41 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  flutter_riverpod:
+    dependency: "direct main"
+    description:
+      name: flutter_riverpod
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  hooks_riverpod:
+    dependency: transitive
+    description:
+      name: hooks_riverpod
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
+  kaigi_plugin_a_2021:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "9df662f75f8d943d5b89a41c3fb935bf7120fb66"
+      url: "https://github.com/koji-1009/kaigi_plugin_a_2021"
+    source: git
+    version: "0.0.1"
+  kaigi_plugin_c_2021:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   lints:
     dependency: transitive
     description:
@@ -102,6 +139,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  riverpod:
+    dependency: transitive
+    description:
+      name: riverpod
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -121,6 +165,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.10.0"
+  state_notifier:
+    dependency: transitive
+    description:
+      name: state_notifier
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.7.1"
   stream_channel:
     dependency: transitive
     description:
@@ -164,4 +215,5 @@ packages:
     source: hosted
     version: "2.1.0"
 sdks:
-  dart: ">=2.12.0 <3.0.0"
+  dart: ">=2.14.0 <3.0.0"
+  flutter: ">=1.20.0"

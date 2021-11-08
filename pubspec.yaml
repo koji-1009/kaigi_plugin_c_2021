@@ -1,15 +1,16 @@
 name: kaigi_plugin_c_2021
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/koji-1009/kaigi_plugin_c_2021
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  hooks_riverpod: ^1.0.0
+  flutter_hooks: ^0.18.0
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +22,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  uses-material-design: true
 
   # To add assets to your package, add an assets section, like this:
   # assets:
