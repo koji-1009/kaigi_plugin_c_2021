@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       darkTheme: darkTheme,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin c demo'),
+          title: const Text('kaigi plugin c 2021'),
         ),
         body: const ScreenName(),
       ),
